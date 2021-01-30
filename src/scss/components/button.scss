@@ -1,0 +1,44 @@
+// Base color
+.btn-green{
+    background-color: $green !important;
+    color: $font-color !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+}
+
+.btn-green:disabled{
+    background-color: $dark-gray !important;
+    color: grey !important;
+}
+
+// Cold color
+.btn-cold{
+    background-color: $cold-button-color !important;
+    color: black !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+}
+
+.btn-cold:disabled{
+    background-color: $dark-gray !important;
+    color: grey !important;
+}
+
+// Warm color
+.btn-warm{
+    background-color: $warm-button-color !important;
+    color: black !important;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    border-radius: 0px !important;
+}
+
+.btn-warm:disabled{
+    background-color: $dark-gray !important;
+    color: grey !important;
+}

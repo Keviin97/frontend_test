@@ -1,0 +1,91 @@
+// Base color
+$green: #6dbb94; // Color utilizado para los botones
+$font-color: #dedfdf; // Color utilizado para las letras
+$back-color: #202830; // Color utilizado como el fondo del card principal
+$input-back-color: #526573; // Color utilizado como el fondo del input de busqueda
+$secondary-back-color: #3e3e45; // Color utilizado para el fondo del cuadro de busqueda
+$other: #343e4c;
+$dark-gray: #323232;
+
+// Cold colors
+$cold-font-color: #B3E0F2;
+$cold-back-color: #012840;
+$cold-input-back-color: #1D5273;
+$cold-button-color: #699EBF;
+$cold-other: #99D0F2;
+
+/* Color Theme Swatches in Hex */
+$warm-font-color: white;
+$warm-back-color: #E85027;
+$warm-input-back-color: #A6450D;
+$warm-button-color: #FFBD2E;
+$warm-other: #FF332B;
+$sunny: #F2CE1B;
+
+// Base color
+.bg-green{
+    background-color: $green;
+}
+
+.bg-back-color{
+    background-color: $back-color;
+}
+
+.bg-input-back-color{
+    background-color: $input-back-color;
+}
+
+.bg-secondary-back-color{
+    background-color: $secondary-back-color;
+}
+
+.green{
+    color: $green !important;
+}
+
+// Cold color
+.bg-cold-font-color{
+    color: $cold-font-color;
+}
+.bg-cold-back-color{
+    background-color: $cold-back-color;
+}
+.bg-cold-input-back-color{
+    background-color: $cold-input-back-color;
+}
+.bg-cold-button-color{
+    background-color: $cold-button-color;
+}
+.bg-cold-other{
+    background-color: $cold-other;
+}
+.cold-font-color{
+    color: $cold-font-color;
+}
+
+// Warm color
+.bg-warm-font-color{
+    background-color: $warm-font-color;
+}
+.bg-warm-back-color{
+    background-color: $warm-back-color;
+}
+.bg-warm-input-back-color{
+    background-color: $warm-input-back-color;
+}
+.bg-warm-button-color{
+    background-color: $warm-button-color;
+}
+.bg-warm-other{
+    background-color: $warm-other;
+}
+.bg-sunny{
+    background-color: $sunny;
+}
+
+.warm-font-color{
+    color: $warm-font-color;
+}
+.sunny{
+    color: $sunny;
+}

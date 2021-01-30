@@ -1,0 +1,17 @@
+.card-weather{
+    background-color: $back-color;
+    width: 50vw;
+
+    @media (max-width: 480px) {
+        width: 100%;
+    }
+}
+
+.card-input{
+    background-color: $secondary-back-color;
+    padding: 3rem 2rem;
+}
+
+.info-card{
+    padding: 2rem 1rem;
+}
